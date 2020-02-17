@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import NewUserForm from './components/NewUserForm';
 import UserList from './components/UserList';
 import {connect} from 'react-redux';
-import {getUsersRequest, createUserRequest, deleteUserRequest, usersError} from '../actions/users';
+import {getUsersRequest, createUserRequest, deleteUserRequest, usersError} from './actions/users';
 import {Alert} from 'reactstrap';
 
 class App extends Component {
